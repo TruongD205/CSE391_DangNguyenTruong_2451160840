@@ -83,3 +83,32 @@ Lý do không nên dùng table để tạo layout trang web
 
 3. Lý do 3 — Tải chậm hơn
    Trình duyệt phải đọc toàn bộ table trước khi render, vì cần biết kích thước tất cả các ô.
+
+# Phần B: Thực hành code
+
+_Câu B3_
+Lỗi 1: Dòng 1 — `<!DOCTYPE>` thiếu khai báo html — Sửa thành `<!DOCTYPE html>`
+
+Lỗi 2: Dòng 2 — `<html>` thiếu thuộc tính `lang` — Sửa thành `<html lang="vi">`
+
+Lỗi 3: Dòng 4 — `<title>Trang web` không có thẻ đóng — Sửa thành `<title>Trang web</title>`
+
+Lỗi 4: Dòng 5 — `<meta charset="utf8">` sai giá trị charset — Sửa thành `<meta charset="UTF-8">`
+
+Lỗi 5: Dòng 8 — `<h1>Welcome to ShopTLU<h1>` thẻ đóng thiếu dấu `/` — Sửa thành `<h1>Welcome to ShopTLU</h1>`
+
+Lỗi 6: Dòng 11 — `<a href="home">Trang chủ<a>` thẻ đóng thiếu dấu `/` và href không dùng `#` — Sửa thành `<a href="#home">Trang chủ</a>`
+
+Lỗi 7: Dòng 19 — `<img src=iphone.jpg>` src không có dấu nháy và thiếu thuộc tính `alt` — Sửa thành `<img src="iphone.jpg" alt="iPhone 16 Pro">`
+
+Lỗi 8: Dòng 21 — `<p>Giá: <b>25.990.000đ</p></b>` thẻ đóng bị lồng sai thứ tự — Sửa thành `<p>Giá: <b>25.990.000đ</b></p>`
+
+Lỗi 9: Dòng 26 — Hàng đầu tiên của bảng dùng `<td>` thay vì `<th>`, và bảng thiếu `<thead>`/`<tbody>` — Sửa bằng cách thêm `<thead><tbody>` và đổi `<td>` thành `<th>` cho hàng tiêu đề
+
+Lỗi 10: Dòng 40 — Dùng `<main>` lần 2 cho sidebar — Một trang chỉ được có 1 thẻ `<main>`, sidebar phải dùng `<aside>` — Sửa thành `<aside>` nằm trong `<main>`
+
+Lỗi 11: Dòng 17 — `<h1>` nằm ngoài `<header>` và đứng trước `<header>` — Semantic sai, `<h1>` nên nằm trong `<header>`
+
+Lỗi 12: Dòng 45 — `<p>Copyright 2026` không có thẻ đóng `</p>` — Sửa thành `<p>Copyright 2026</p>`
+
+Lỗi 13: Dòng 20 — `<h3>Sản phẩm hot</h3>` nhảy từ `<h1>` xuống thẳng `<h3>`, bỏ qua `<h2>` — Sai cấu trúc heading, sửa thành `<h2>`
