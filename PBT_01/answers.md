@@ -112,3 +112,29 @@ Lỗi 11: Dòng 17 — `<h1>` nằm ngoài `<header>` và đứng trước `<hea
 Lỗi 12: Dòng 45 — `<p>Copyright 2026` không có thẻ đóng `</p>` — Sửa thành `<p>Copyright 2026</p>`
 
 Lỗi 13: Dòng 20 — `<h3>Sản phẩm hot</h3>` nhảy từ `<h1>` xuống thẳng `<h3>`, bỏ qua `<h2>` — Sai cấu trúc heading, sửa thành `<h2>`
+
+_Câu B4_
+
+Trong trang web thegioididong.com:
+
+1. 3 thẻ semantic HTML5 mà trang đó sử dụng
+
+- Thẻ `<header>`:
+  ![thẻ header](./screenshots/cauB4_header.png)
+
+- Thẻ `<section>`
+  ![thẻ section](./screenshots/cauB4_section.png)
+
+- Thẻ `<footer>`
+  ![thẻ footer](./screenshots/cauB4_footer.png)
+
+- Thẻ `<body>`mà trang đó KHÔNG dùng đúng semantic
+  ![thẻ body](./screenshots/cauB4_body_sai.png)
+
+2. Trang thegioididong không dùng thẻ `<table>`
+
+3. Thẻ `<form>`
+   ![thẻ form](./screenshots/cauB4_form.png)
+   Form có action là <`action="/tim-kiem"`>. Khi submit, dữ liệu sẽ được gửi đến đường dẫn `/tim-kiem`
+   Không có method nên sẽ mặc định là GET
+   Input có 2 loại là text để nhập và button để click
