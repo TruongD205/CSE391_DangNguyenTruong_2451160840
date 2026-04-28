@@ -12,3 +12,5 @@ _Câu A1_
 8. `type="radio"` → Ô tròn nhỏ, chỉ chọn 1 trong nhóm cùng name → Dùng cho chọn phương thức thanh toán
 9. `type="file"` → Nút chọn tệp, giới hạn định dạng bằng accept → Dùng cho upload ảnh đánh giá sản phẩm
 10. `type="search"` → Ô nhập text có icon 🔍 kèm nút xóa nhanh, không tự validate → Dùng cho thanh tìm kiếm sản phẩm
+
+_Câu A2_
