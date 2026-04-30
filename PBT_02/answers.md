@@ -108,8 +108,7 @@ _Câu C1_
 1. Lỗi 1: Dòng 2 — Input "Tên" không có `<label for="...">`, vi phạm accessibility
 
 ```html
-<label for="name">Tên:</label>
-<input type="text" id="name" name="name" required />
+<label for="name">Tên:</label> <input type="text" id="name" name="name" required />
 ```
 
 2. Lỗi 2: Dòng 4 — Input email không có `<label>` và thiếu `name`, `id`, `required`
@@ -117,13 +116,7 @@ _Câu C1_
 ```html
 <!-- Sửa -->
 <label for="email">Email:</label>
-<input
-  type="email"
-  id="email"
-  name="email"
-  placeholder="Email của bạn"
-  required
-/>
+<input type="email" id="email" name="email" placeholder="Email của bạn" required />
 ```
 
 3. Lỗi 3: Dòng 6 — Input password không có `<label>` và thiếu `name`, `id`, `required`, `minlength`
@@ -131,14 +124,7 @@ _Câu C1_
 ```html
 <!-- Sửa -->
 <label for="password">Mật khẩu:</label>
-<input
-  type="password"
-  id="password"
-  name="password"
-  placeholder="Mật khẩu"
-  minlength="8"
-  required
-/>
+<input type="password" id="password" name="password" placeholder="Mật khẩu" minlength="8" required />
 ```
 
 4. Lỗi 4: Dòng 7 — Input confirm password không có `<label>` và thiếu `name`, `id`, `required`
@@ -146,14 +132,7 @@ _Câu C1_
 ```html
 <!-- Sửa -->
 <label for="confirm-password">Nhập lại mật khẩu:</label>
-<input
-  type="password"
-  id="confirm-password"
-  name="confirm-password"
-  placeholder="Nhập lại mật khẩu"
-  minlength="8"
-  required
-/>
+<input type="password" id="confirm-password" name="confirm-password" placeholder="Nhập lại mật khẩu" minlength="8" required />
 ```
 
 5. Lỗi 5: Dòng 9 — Input phone dùng `type="text"` thay vì `type="tel"`, thiếu `label`, `name`, `id`, `pattern`
@@ -161,13 +140,7 @@ _Câu C1_
 ```html
 <!-- Sửa -->
 <label for="phone">Phone:</label>
-<input
-  type="tel"
-  id="phone"
-  name="phone"
-  pattern="[0-9]{10}"
-  value="0901234567"
-/>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" value="0901234567" />
 ```
 
 6. Lỗi 6: Dòng 11 — `<select>` thiếu `<label>`, `name`, `id` và thiếu option mặc định placeholder
