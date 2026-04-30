@@ -192,32 +192,12 @@ _Câu C1_
 
         <figure>
           <!-- figure: nhóm ảnh có liên quan đến nhau -->
-          <img
-            src="https://placehold.co/600x400"
-            alt="iPhone 16 Pro - ảnh chính"
-            loading="lazy"
-          />
+          <img src="https://placehold.co/600x400" alt="iPhone 16 Pro - ảnh chính" loading="lazy" />
           <!-- loading = lazy là khi người dùng lướt đến mới load ảnh -->
-          <img
-            src="https://placehold.co/100x100"
-            alt="iPhone 16 Pro - ảnh 2"
-            loading="lazy"
-          />
-          <img
-            src="https://placehold.co/100x100"
-            alt="iPhone 16 Pro - ảnh 3"
-            loading="lazy"
-          />
-          <img
-            src="https://placehold.co/100x100"
-            alt="iPhone 16 Pro - ảnh 4"
-            loading="lazy"
-          />
-          <img
-            src="https://placehold.co/100x100"
-            alt="iPhone 16 Pro - ảnh 5"
-            loading="lazy"
-          />
+          <img src="https://placehold.co/100x100" alt="iPhone 16 Pro - ảnh 2" loading="lazy" />
+          <img src="https://placehold.co/100x100" alt="iPhone 16 Pro - ảnh 3" loading="lazy" />
+          <img src="https://placehold.co/100x100" alt="iPhone 16 Pro - ảnh 4" loading="lazy" />
+          <img src="https://placehold.co/100x100" alt="iPhone 16 Pro - ảnh 5" loading="lazy" />
           <figcaption>iPhone 16 Pro — 5 góc nhìn</figcaption>
           <!-- figcaption: mô tả cho figure -->
         </figure>
@@ -234,10 +214,7 @@ _Câu C1_
             <!-- span: inline text, không cần block element -->
             <span>(1.234 đánh giá)</span>
           </div>
-          <p>
-            Chip A18 Pro, Camera 48MP, màn hình 6.3 inch Super Retina XDR, pin
-            cả ngày.
-          </p>
+          <p>Chip A18 Pro, Camera 48MP, màn hình 6.3 inch Super Retina XDR, pin cả ngày.</p>
         </article>
       </section>
 
@@ -303,22 +280,14 @@ _Câu C1_
           <!-- ul: danh sách sản phẩm không có thứ tự -->
           <li>
             <a href="#">
-              <img
-                src="https://placehold.co/150x100"
-                alt="iPhone 15 Pro"
-                loading="lazy"
-              />
+              <img src="https://placehold.co/150x100" alt="iPhone 15 Pro" loading="lazy" />
               <p>iPhone 15 Pro</p>
               <p><strong>22.990.000đ</strong></p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img
-                src="https://placehold.co/150x100"
-                alt="Samsung Galaxy S25"
-                loading="lazy"
-              />
+              <img src="https://placehold.co/150x100" alt="Samsung Galaxy S25" loading="lazy" />
               <p>Samsung Galaxy S25</p>
               <p><strong>22.490.000đ</strong></p>
             </a>
