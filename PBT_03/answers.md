@@ -443,3 +443,7 @@ _Các rules liên quan:_
 - `.highlight` → color: green !important ← THẮNG
 
 _!important thắng tất cả → color = green_
+
+# PHẦN D — VIDEO THỰC HÀNH OBS
+
+- Link video PBT 03: https://youtu.be/4cRDqVI4gkA
