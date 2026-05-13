@@ -277,3 +277,7 @@ Giải thích:
   flex: 1;
 }
 ```
+
+# PHẦN D — VIDEO THỰC HÀNH OBS
+
+- Link video PBT_04: https://youtu.be/moRjLqCjKOQ
