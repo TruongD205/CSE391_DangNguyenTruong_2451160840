@@ -319,3 +319,7 @@ _Bootstrap_
 - Dự án nhỏ, chỉ cần 2–3 components đơn giản
 - Cần performance cao, bundle size tối thiểu
 - Đang học CSS — nên viết tay trước để hiểu bản chất
+
+# PHẦN D — VIDEO THỰC HÀNH OBS
+
+- Link video PBT_06: https://youtu.be/B10ahOiEiek
