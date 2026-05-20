@@ -550,3 +550,7 @@ body {
   }
 }
 ```
+
+# PHẦN D — VIDEO THỰC HÀNH OBS
+
+- Link video PBT_04: https://youtu.be/Eu6gEjms_2c
