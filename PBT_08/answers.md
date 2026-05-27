@@ -222,3 +222,7 @@ console.log(miniArray.map([1, 2, 3], (x) => x * 2)); // → [2,4,6]
 console.log(miniArray.filter([1, 2, 3, 4], (x) => x > 2)); // → [3,4]
 console.log(miniArray.reduce([1, 2, 3, 4], (a, b) => a + b, 0)); // → 10
 ```
+
+# PHẦN D — VIDEO THỰC HÀNH OBS
+
+- Link video PBT 08: https://youtu.be/spQzE_ubIzc
