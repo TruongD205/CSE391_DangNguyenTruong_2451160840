@@ -72,6 +72,16 @@
   box-sizing: border-box;
 }
 
+.form-group input:not(:placeholder-shown):invalid,
+.form-group textarea:not(:placeholder-shown):invalid {
+  border-color: #ef4444;
+}
+
+.form-group input:not(:placeholder-shown):valid,
+.form-group textarea:not(:placeholder-shown):valid {
+  border-color: #22c55e;
+}
+
 /* ── Focus effect ── */
 .form-group input:focus,
 .form-group textarea:focus {
