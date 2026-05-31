@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
   return (
     <section className="contact" id="contact">
       <div className="container">
