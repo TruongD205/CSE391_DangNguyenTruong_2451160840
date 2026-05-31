@@ -7,12 +7,45 @@ function Contact() {
     message: "",
   });
 
+  const [errors, setErrors] = useState({});
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
       [name]: value,
     }));
+    if (errors[name]) {
+      setErrors((prev) => ({
+        ...prev,
+        [name]: "",
+      }));
+    }
+  };
+
+  const validateForm = () => {
+    const newErrors = {};
+
+    if (!formData.name.trim()) {
+      newErrors.name = "Name is required";
+    } else if (formData.name.length < 2) {
+      newErrors.name = "Name must be at least 2 characters";
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!formData.email) {
+      newErrors.email = "Email is required";
+    } else if (!emailRegex.test(formData.email)) {
+      newErrors.email = "Invalid email format";
+    }
+
+    if (!formData.message.trim()) {
+      newErrors.message = "Message is required";
+    } else if (formData.message.length < 10) {
+      newErrors.message = "Message must be at least 10 characters";
+    }
+
+    return newErrors;
   };
 
   return (
@@ -27,11 +60,12 @@ function Contact() {
                 type="text"
                 id="name"
                 name="name"
-                className="form-control"
+                className={`form-control ${errors.name ? "error" : ""}`}
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your name"
               />
+              {errors.name && <span className="error-message">{errors.name}</span>}
             </div>
             <div className="form-group">
               <label htmlFor="email">Email</label>
@@ -39,11 +73,12 @@ function Contact() {
                 type="email"
                 id="email"
                 name="email"
-                className="form-control"
+                className={`form-control ${errors.email ? "error" : ""}`}
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Your email"
               />
+              {errors.email && <span className="error-message">{errors.email}</span>}
             </div>
           </div>
           <div className="form-group">
@@ -52,11 +87,12 @@ function Contact() {
               id="message"
               name="message"
               rows="5"
-              className="form-control"
+              className={`form-control ${errors.message ? "error" : ""}`}
               value={formData.message}
               onChange={handleChange}
               placeholder="Your message"
             />
+            {errors.message && <span className="error-message">{errors.message}</span>}
           </div>
         </div>
       </div>
