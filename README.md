@@ -1,12 +1,3 @@
 ### Em tên là Đặng Nguyên Trường lớp 66HTTT2, hiện đang là sinh viên năm 2 đại học Thuỷ Lợi
 
-Tiến độ:
-
-- Xong PBT 01
-- Xong PBT 02
-- Xong PBT 03
-- Xong PBT 04
-- Xong BTTH01
-- Xong BTTH02
-- Xong PBT 05
-- Xong PBT 06
+### Link video: https://www.youtube.com/watch?v=e_cF42WMXFU&list=PLRuYsl6iZqeA7K9kGUiVW_LQfWdveVM-9
