@@ -1,0 +1,114 @@
+/* ── Comment Form ──────────────────────────── */
+.comment-form-card .card-header {
+  background-color: #fff;
+  border-bottom: 2px solid #f1f5f9;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+/* ── Comment List ──────────────────────────── */
+.comments-list {
+  padding-top: 0.5rem;
+}
+
+/* ── Comment Item ──────────────────────────── */
+.comment-item {
+  animation: fadeInUp 0.3s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Comment Bubble ────────────────────────── */
+.comment-bubble {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+}
+
+/* ── Avatar ────────────────────────────────── */
+.comment-avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.reply-avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── Nested Reply ──────────────────────────── */
+.comment-reply {
+  margin-left: 3rem;
+  margin-top: 0.75rem;
+}
+
+.reply-bubble {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  border-left: 3px solid #14b8a6 !important;
+}
+
+/* ── Reply Button ──────────────────────────── */
+.reply-btn {
+  font-size: 0.825rem;
+  padding: 0.25rem 0.75rem;
+  color: #14b8a6;
+  border-color: #14b8a6;
+}
+.reply-btn:hover {
+  background-color: #14b8a6;
+  color: #fff;
+}
+
+/* ── Author Badge ──────────────────────────── */
+.author-badge {
+  font-size: 0.65rem;
+  vertical-align: middle;
+  background-color: #14b8a6 !important;
+}
+
+/* ── Reply Form (dynamic) ──────────────────── */
+.reply-form .card {
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+.reply-form .form-control-sm {
+  font-size: 0.875rem;
+}
+
+/* ── Timestamp ─────────────────────────────── */
+.comment-time {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  white-space: nowrap;
+}
+
+/* ── Comment Count Heading ─────────────────── */
+.comments-count-heading {
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 1.1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #f1f5f9;
+  margin-bottom: 1.5rem;
+}
